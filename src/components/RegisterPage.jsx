@@ -1,4 +1,3 @@
-import Button from "./Button"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
