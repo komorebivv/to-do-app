@@ -1,13 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #1A1A1A;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.login {
+  display:flex;
+  flex-direction: column;
+  background-color: #2D2D2D;
+  width: 450px;
+  height: 500px;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+h2 {
+  color: #FF9900;
+  margin-bottom: 90px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 30px;
+  color: #FF9900;
+  
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.orangeText {
+  color: #FF9900;
+  
+}
+
+button {
+  color: white;
+  background: #FF9900;
+  padding: 10px 48px 10px 48px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+input {
+margin: 10px 0px;
+width: 300px;
+height: 25px;
+border-radius: 3px;
+border: none;
+}
+
+span {
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
+a > span {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.arrowIcon {
+  font-size: 30px;
+  align-self: flex-start;
+  margin: 0px 10px;
+  color: white;
+}
+
+.singularList {
+  display: flex;
+  background-color: #2D2D2D;
+  padding: 0px 7px;
+  border-radius: 9px;
+  margin: 20px 0;
+}
+
+.singularList h6, p {
+padding: 0px 10px;
+margin-right: 90px;
+}
+
+
+p:last-of-type {
+  margin-right: 0px;
+}
+
+
+/* .lists {
+  position: relative;
+} */
+
+button.addList {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  background-color: white;
+  color: #FF9900;
+  position: fixed;
+  bottom: 0px;
+  right: 450px;
+}
+
+ul {
+  padding: 0;
+}
+
+.filterSort {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort {
+  background-color: white;
+  color: black;
+  font-weight: 300;
+  margin: 10px 0px;
+  padding: 0px 48px;
+  height: 30px;
+}
+
+hr {
+  background-color: #FF9900;
+  border: 1px solid #FF9900;
+  margin: 20px 0px;
+}
+
+.editAddButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 360px;
+}
+
+.cancel {
+  background-color: transparent;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  color:#FF9900;
+  margin: 0;
+}
+
+
+.inputTask {
+  background-color: transparent;
+  border-bottom: 1px solid #FF9900;
+  border-radius: 0;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+input:hover {
+  outline: none;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+.tasksButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tasksButtons button {
+  width: 70px;
+  padding: 5px;
+}
+
+.tasksButtons button:first-of-type{
+  background-color: #FF3D00;
+  margin-right: 30px;
 }
