@@ -29,6 +29,13 @@ const EditModal = ({modalOpen, modalClose, task, setTask, list, addOrEdit}) => {
         },
       };
 
+      const addList = () => {
+        axios.put('https://recruitment.ultimate.systems/to-do-lists',{
+          name: nameList,
+          task: tasks,
+        } )
+      }
+
 
     return (
         <div>
